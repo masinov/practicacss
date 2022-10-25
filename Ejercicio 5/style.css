@@ -1,0 +1,54 @@
+*{
+    background-color: beige;
+}
+p{
+    font-size: smaller;
+}
+#title-1{
+    color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+[id]{
+    color: green;
+}
+[id="title-1"]{
+    color: blue;
+}
+[href="https://www.yahoo.com"]{
+    color: orange;
+}
+[class^="title"]{
+    color:turquoise;
+}
+[href$=".com"]{
+    background-color:turquoise;
+}
+[class*="title"]{
+    font-style: italic;
+}
+[href*="127"]{
+    background-color: purple;
+}
+[href^="http"]{
+    font-style: oblique;
+}
+main > p{
+    color: greenyellow;
+}
+a, p, h1{
+    background-color: black;
+}
+
+h1 + *{
+    font-size: xx-large;
+}
+
+h1 ~ *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
