@@ -1,0 +1,13 @@
+div#div1{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 100px;
+    background-color: yellowgreen;
+    overflow-y: hidden;
+}
+div#div2{
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
+    overflow-y: scroll;
+}

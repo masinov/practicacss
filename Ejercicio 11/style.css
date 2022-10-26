@@ -1,0 +1,38 @@
+body{
+    background-color: azure;
+}
+
+div#title{
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: aqua;
+}
+table#main{
+    width: 600px;
+    height: auto;
+    border: 7px;
+    padding: 5px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -19px;
+    background-color: rgb(255, 206, 200);
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 50px;
+    border-color: black;
+    text-align: center;
+}
+tr[id*="col"], tr[id*="col"] > td{
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+} 
+tr#bottom{
+    text-align: center;
+    background-color: aqua;
+}
