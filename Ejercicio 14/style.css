@@ -1,0 +1,36 @@
+.square{
+    width: 296px;
+    height: 296px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: red;
+    border: solid black 2px;
+    position: fixed;
+}
+.circle{
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.circle1{
+    top: -25px;
+    left: -25px;
+}
+.circle2{
+    top: -25px;
+    left: 271px;
+}
+.circle3{
+    top: 271px;
+    left: -25px;
+}
+.circle4{
+    top: 271px;
+    left: 271px;
+}
